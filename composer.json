@@ -1,10 +1,16 @@
 {
     "name": "hastanegara/telegram-messenger",
     "description": "Laravel Telegram Message System for Developers & Admins",
+    "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Cdt\\TelegramMessenger\\": "src/"
+            "Hastanegara\\TelegramMessenger\\": "src/"
         }
+    },
+    "require": {
+        "php": ">=7.4",
+        "illuminate/support": "^8.0|^9.0|^10.0"
     },
     "extra": {
         "laravel": {
