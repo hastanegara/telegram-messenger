@@ -1,0 +1,19 @@
+{
+    "name": "hastanegara/telegram-messenger",
+    "description": "Laravel Telegram Message System for Developers & Admins",
+    "autoload": {
+        "psr-4": {
+            "Cdt\\TelegramMessenger\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hastanegara\\TelegramMessenger\\TelegramMessengerServiceProvider"
+            ],
+            "aliases": {
+                "TelegramMessenger": "Hastanegara\\TelegramMessenger\\Facades\\TelegramMessenger"
+            }
+        }
+    }
+}
